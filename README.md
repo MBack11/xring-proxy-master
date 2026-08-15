@@ -79,8 +79,4 @@ Precomputed figures and PDFs are enough to read the method without running the s
 
 ## Role
 
-Student assistant (SHK) research code at TUM, building on XRing under supervision in the optical NoC / photonic interconnect line of work. The DATE paper is by the XRing authors; the proxy-master formulations, loop, and experiments in this repo are my contribution.
-
-## License
-
-MIT for the code and my documentation PDFs in `docs/pdf/`. XRing (DATE 2023) remains © the original authors / IEEE — cite the DOI, do not redistribute the publisher PDF from this repo.
+Student assistant (SHK) research code at TUM, building on XRing under supervision in the optical NoC / photonic interconnect line of work. The DATE paper is by the XRing authors; the proxy-master formulations, loop, and experiments in this repo are my contribution. XRing (DATE 2023) remains © the original authors / IEEE — cite the DOI, do not redistribute the publisher PDF from this repo.
