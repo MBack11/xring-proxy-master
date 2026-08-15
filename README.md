@@ -2,7 +2,7 @@
 
 Research on **design automation** for wavelength-routed optical networks-on-chip (WR-ONoCs): how to place rings and shortcuts so the network needs less laser power.
 
-The overall goal is to **minimize the optical power** that has to be launched into the chip. In practice that means designing for better signal quality and lower loss — especially **SNR**, **insertion / through loss**, and **propagation loss** along the waveguides. I work on this as a research assistant at the **Chair of Electronic Design Automation (EDA), TUM**, building on the **XRing** synthesis method by my supervisor and co-authors (DATE 2023).
+The overall goal is to **minimize the optical power** that has to be launched into the chip. In practice that means designing for better signal quality and lower loss — especially **SNR**, **through loss**, and **propagation loss** along the waveguides. I work on this as a research assistant at the **Chair of Electronic Design Automation (EDA), TUM**, building on the **XRing** synthesis method by my supervisor and co-authors (DATE 2023).
 
 Right now the focus is a **proxy-master** search that proposes ring + shortcut layouts, checks them against real geometry, and compares the resulting path metrics to a baseline. Formulations and flow charts from this stage:
 
@@ -41,4 +41,4 @@ Shared-mode proxy vs baseline (excerpt; negative Δ / % = shorter worst-case pat
 
 ## Role
 
-**Student research assistant (SHK)** at the **Chair of Electronic Design Automation (EDA), Technical University of Munich**. I work on design automation for WR-ONoCs under supervision in this group — building skills in MILP / optimization (Gurobi), C++ tooling for photonic interconnect CAD, and reading designs through power-relevant metrics (SNR, through loss, propagation loss). This repository is a public snapshot of that ongoing work; it builds on XRing by my supervisor and co-authors.
+**Student research assistant (SHK)** at the **Chair of Electronic Design Automation (EDA), Technical University of Munich**. I work on design automation for WR-ONoCs under supervision in this group — building skills in MILP / optimization (Gurobi), C++ tools that generate and evaluate optical on-chip interconnect layouts, and assessing designs with power-relevant metrics (SNR, through loss, propagation loss). This repository is a public snapshot of that ongoing work; it builds on XRing by my supervisor and co-authors.
