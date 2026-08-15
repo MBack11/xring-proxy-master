@@ -42,7 +42,7 @@ Formulations and flow charts (my write-ups):
 
 ![Example proxy-master layout](figures/layout_plot_PM_ring_sc.png)
 
-Shared-mode proxy vs baseline (excerpt from [`results/Shared_Private_Wbase_Comparison_Report.md`](results/Shared_Private_Wbase_Comparison_Report.md)):
+Shared-mode proxy vs baseline (excerpt):
 
 | N | Proxy mean W* | Baseline mean W | Mean Δ (W* − baseline) |
 |---|--------------:|----------------:|-----------------------:|
@@ -54,28 +54,13 @@ Shared-mode proxy vs baseline (excerpt from [`results/Shared_Private_Wbase_Compa
 
 Negative Δ means the proxy-master incumbent is **better** (shorter worst-case path) than the baseline on average.
 
-## Build
-
-Requires **Gurobi** with a valid license and CMake ≥ 3.16.
-
-```bash
-export GUROBI_HOME=/path/to/gurobi   # e.g. /Library/gurobi1301/macos_universal2
-cmake -S . -B build
-cmake --build build -j
-./build/proxy_master                 # or the binary path from CMAKE_RUNTIME_OUTPUT_DIRECTORY
-```
-
-Precomputed figures and PDFs are enough to read the method without running the solver.
-
 ## Layout
 
 | Path | Contents |
 |------|----------|
-| `src/` | Proxy master, Stage E, Method D, wavelength postprocess |
-| `docs/pdf/` | MILP + flow documentation |
-| `figures/` | Example ring + shortcut layout |
-| `results/` | Benchmark tables |
-| `tools/` | Optional batch / SNR study drivers |
+| [`src/`](src/) | C++ sources — proxy master, Stage E, Method D, wavelength postprocess |
+| [`docs/pdf/`](docs/pdf/) | MILP + flow documentation |
+| [`figures/`](figures/) | Example ring + shortcut layout |
 
 ## Role
 
