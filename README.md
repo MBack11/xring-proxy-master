@@ -2,7 +2,7 @@
 
 Research on **design automation** for wavelength-routed optical networks-on-chip (WR-ONoCs): how to place rings and shortcuts so the network needs less laser power.
 
-The overall goal is to **minimize the optical power** that has to be launched into the chip. In practice that means designing for better signal quality and lower loss — especially **SNR**, **through loss**, and **propagation loss** along the waveguides. I work on this as a research assistant at the **Chair of Electronic Design Automation (EDA), TUM**, building on the **XRing** synthesis method by my supervisor and co-authors (DATE 2023).
+The overall goal is to **minimize the laser power** that has to be launched into the chip. In practice that means designing for better signal quality and lower loss — especially **SNR**, **through loss**, and **propagation loss** along the waveguides. I work on this as a research assistant at the **Chair of Electronic Design Automation (EDA), TUM**, building on the **XRing** synthesis method by my supervisor and co-authors (DATE 2023).
 
 Right now the focus is a **proxy-master** search that proposes ring + shortcut layouts, checks them against real geometry, and compares the resulting path metrics to a baseline. Formulations and flow charts from this stage:
 
